@@ -287,7 +287,8 @@ figcaption {
   padding: 12px 25px;
   border-radius: 0px;
   background-color: #1a1b1f;
-  -webkit-transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
+  -webkit-transition: background-color 400ms ease, opacity 400ms ease,
+    color 400ms ease;
   transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
   color: #fff;
   font-size: 12px;
@@ -496,7 +497,8 @@ figcaption {
   margin-bottom: 80px;
   grid-column-gap: 30px;
   grid-row-gap: 30px;
-  grid-template-areas: ". . ."
+  grid-template-areas:
+    ". . ."
     ". . .";
   -ms-grid-columns: 1.5fr 30px 1fr 30px 1.5fr;
   grid-template-columns: 1.5fr 1fr 1.5fr;
@@ -530,7 +532,7 @@ figcaption {
   -ms-flex-align: stretch;
   align-items: stretch;
   background-color: #f4f4f4;
-  background-image: url('../images/');
+  background-image: url("../images/");
   background-position: 50% 50%;
   background-size: cover;
   text-align: center;
@@ -546,22 +548,22 @@ figcaption {
 }
 
 .work-image.cc-work-1 {
-  background-image: url('../images/portfolio-1---wide.svg');
+  background-image: url("../images/portfolio-1---wide.svg");
   background-size: cover;
 }
 
 .work-image.cc-work-2 {
-  background-image: url('../images/portfolio-2---wide.svg');
+  background-image: url("../images/portfolio-2---wide.svg");
   background-size: cover;
 }
 
 .work-image.cc-work-4 {
-  background-image: url('../images/portfolio-3---wide.svg');
+  background-image: url("../images/portfolio-3---wide.svg");
   background-size: cover;
 }
 
 .work-image.cc-work-3 {
-  background-image: url('../images/portfolio-4---wide.svg');
+  background-image: url("../images/portfolio-4---wide.svg");
   background-size: cover;
 }
 
@@ -812,7 +814,8 @@ figcaption {
   margin-bottom: 110px;
   grid-column-gap: 80px;
   grid-row-gap: 20px;
-  grid-template-areas: ". ."
+  grid-template-areas:
+    ". ."
     ". .";
   -ms-grid-rows: auto 20px auto;
   grid-template-rows: auto auto;
@@ -845,7 +848,8 @@ figcaption {
   grid-column-gap: 30px;
   grid-row-gap: 30px;
   -ms-grid-rows: auto 30px auto;
-  grid-template-areas: ". . . ."
+  grid-template-areas:
+    ". . . ."
     ". . . .";
   -ms-grid-columns: 1fr 30px 1fr 30px 1fr 30px 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -856,7 +860,8 @@ figcaption {
   margin-bottom: 135px;
   grid-column-gap: 50px;
   grid-row-gap: 100px;
-  grid-template-areas: ". . . ."
+  grid-template-areas:
+    ". . . ."
     ". . . .";
   -ms-grid-columns: 1fr 50px 1fr 50px 1fr 50px 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -989,6 +994,10 @@ figcaption {
   margin-bottom: 30px;
 }
 
+.form_message-field {
+  grid-column: 1 / span 2;
+}
+
 @media screen and (max-width: 991px) {
   .styleguide-block {
     text-align: center;
@@ -1024,8 +1033,10 @@ figcaption {
 
   .navigation-item {
     padding: 15px 30px;
-    -webkit-transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
-    transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
+    -webkit-transition: background-color 400ms ease, opacity 400ms ease,
+      color 400ms ease;
+    transition: background-color 400ms ease, opacity 400ms ease,
+      color 400ms ease;
     text-align: center;
   }
 
@@ -1058,7 +1069,8 @@ figcaption {
   }
 
   .work-experience-grid {
-    grid-template-areas: ". ."
+    grid-template-areas:
+      ". ."
       ". .";
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
@@ -1105,7 +1117,8 @@ figcaption {
 
   .about-intro-grid {
     grid-row-gap: 50px;
-    grid-template-areas: "."
+    grid-template-areas:
+      "."
       ".";
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
@@ -1132,7 +1145,8 @@ figcaption {
   .services-items-grid {
     padding-top: 0px;
     grid-row-gap: 0px;
-    grid-template-areas: "."
+    grid-template-areas:
+      "."
       ".";
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
@@ -1145,7 +1159,8 @@ figcaption {
     margin-right: auto;
     margin-left: auto;
     grid-row-gap: 50px;
-    grid-template-areas: "."
+    grid-template-areas:
+      "."
       ".";
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
@@ -1158,7 +1173,8 @@ figcaption {
     width: 80%;
     margin-right: auto;
     margin-left: auto;
-    grid-template-areas: "."
+    grid-template-areas:
+      "."
       "."
       "."
       ".";
@@ -1177,7 +1193,8 @@ figcaption {
   }
 
   .social-media-grid {
-    grid-template-areas: ". ."
+    grid-template-areas:
+      ". ."
       ". ."
       ". ."
       ". .";
@@ -1192,7 +1209,8 @@ figcaption {
     margin-right: auto;
     margin-left: auto;
     grid-row-gap: 50px;
-    grid-template-areas: "."
+    grid-template-areas:
+      "."
       "."
       ".";
     -ms-grid-columns: 1fr;
@@ -1207,7 +1225,8 @@ figcaption {
     margin-right: auto;
     margin-left: auto;
     grid-row-gap: 50px;
-    grid-template-areas: "."
+    grid-template-areas:
+      "."
       ".";
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
@@ -1227,6 +1246,10 @@ figcaption {
 }
 
 @media screen and (max-width: 767px) {
+  .form_message-field {
+    grid-column: 1 / span 1;
+  }
+
   .heading-jumbo-small {
     font-size: 30px;
     line-height: 52px;
@@ -1305,7 +1328,8 @@ figcaption {
 
   .contact-form-grid {
     grid-column-gap: 30px;
-    grid-template-areas: "."
+    grid-template-areas:
+      "."
       "."
       ".";
     -ms-grid-columns: 1fr;
