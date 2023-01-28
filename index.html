@@ -239,25 +239,28 @@
           <div class="contact-form-wrap">
             <form name="contact" method="POST" data-netlify="true">
               <p>
-                <label>Your Name: <input type="text" name="name" /></label>
-              </p>
-              <p>
-                <label>Your Email: <input type="email" name="email" /></label>
+                <label
+                  >Your Name:
+                  <input type="text" name="name" class="text-field w-input"
+                /></label>
               </p>
               <p>
                 <label
-                  >Your Role:
-                  <select name="role[]" multiple>
-                    <option value="leader">Leader</option>
-                    <option value="follower">Follower</option>
-                  </select></label
-                >
+                  >Your Email:
+                  <input type="email" name="email" class="text-field w-input"
+                /></label>
               </p>
               <p>
-                <label>Message: <textarea name="message"></textarea></label>
+                <label
+                  >Message:
+                  <textarea
+                    name="message"
+                    class="text-field cc-textarea w-input"
+                  ></textarea>
+                </label>
               </p>
               <p>
-                <button type="submit">Send</button>
+                <button type="submit" class="button w-button">Send</button>
               </p>
             </form>
 
