@@ -996,6 +996,7 @@ figcaption {
 
 .form_message-field {
   grid-column: 1 / span 2;
+  -ms-grid-column: 1 / span 1;
 }
 
 @media screen and (max-width: 991px) {
@@ -1248,6 +1249,7 @@ figcaption {
 @media screen and (max-width: 767px) {
   .form_message-field {
     grid-column: 1 / span 1;
+    -ms-grid-column: 1 / span 1;
   }
 
   .heading-jumbo-small {
